@@ -1,0 +1,38 @@
+.P {
+    font-size: 16px;
+}
+
+.Title1{
+    font-size: 30px;
+}
+.Title2{
+    font-size: 22px;
+}
+.Title3{
+    font-size: 19px;
+}
+.Title0{
+    font-size: 60px;
+}
+@media  screen and (max-width:370px){
+    .P {
+        font-size: 13px;
+    }
+    .Title1{
+        font-size: 25px;
+    }
+    .Title1{
+        font-size: 22px;
+    }
+    .Title0{
+font-size:30px;
+    }
+    .Title2{
+        font-size: 18px;
+    }
+    .Title3{
+        font-size: 16px;
+    }
+  }
+
+/* sizes 600px , 370px */

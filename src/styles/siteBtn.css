@@ -1,0 +1,15 @@
+.siteBtn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:500;
+    border-radius:5px;
+    border-color: rgb(230,230, 230);
+    border-style: solid;
+}
+
+.siteBtn:hover {
+   color:white !important;
+   cursor:pointer;
+    background-color:rgb(190, 141, 58) !important;
+   }

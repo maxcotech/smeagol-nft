@@ -1,0 +1,7 @@
+.mapCardTitle {
+    position:absolute;
+    top:20px;
+    left:20px;
+    transform: rotate(90deg);
+   width:120px;
+}
