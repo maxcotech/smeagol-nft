@@ -1,11 +1,18 @@
 import { Box, Paper } from '@mui/material'
-import { appColor } from 'appConstants'
-import { Grey } from 'components/typography'
-import { Title3 } from 'components/typography'
-import React from 'react'
+import { appColor } from '../../appConstants'
+import { Grey } from '../../components/typography'
+import { Title3 } from '../../components/typography'
 import { BsLinkedin, BsTwitter } from 'react-icons/bs'
 
-function LordCard({ name, img, role, handle, linkedin }) {
+export interface LordCardProps {
+    name: string,
+    img: string,
+    role: string,
+    handle: string,
+    linkedin: boolean
+}
+
+function LordCard({ name, img, role, handle, linkedin }: Partial<LordCardProps>) {
     return (
         <Paper elevation={0} sx={{ borderRadius: '20px', background: 'rgba(255,255,255, 0.9)', p: 2 }}>
             <img src={img} style={{ borderRadius: '20px 20px 0px 0px', width: '100%', height: '300px', objectFit: 'cover' }} />

@@ -1,15 +1,15 @@
-import { AppBar, Box, Container, Hidden, Stack, Toolbar, Typography } from "@mui/material";
+import { AppBar, Box, Container, Hidden, Toolbar, Typography } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
-import "styles/layout.css"
-import { appLogo } from "appConstants";
-import SiteBtn from "components/siteBtn";
+import "../../../styles/layout.css";
+import { appLogo } from "../../../appConstants";
+import SiteBtn from "../../siteBtn";
 import { BsTwitter } from "react-icons/bs";
 import { SiDiscord } from "react-icons/si";
-import { appBg } from "appConstants";
+import { appBg } from "../../../appConstants";
 import { Drawer } from 'antd';
 import { HiOutlineMenu } from "react-icons/hi";
-import { appColor } from "appConstants";
+import { appColor } from "../../../appConstants";
 
 
 

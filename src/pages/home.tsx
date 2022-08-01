@@ -1,14 +1,8 @@
-import { Box, Grid, Paper } from '@mui/material'
-import { bgImg } from 'appConstants'
-import { appColor } from 'appConstants'
-import GItem from 'components/grids'
-import AppLayout from 'components/layout/appLayout'
-import SiteBtn from 'components/siteBtn'
-import SiteGap from 'components/siteGap'
-import { Title3 } from 'components/typography'
-import { Grey } from 'components/typography'
-import React from 'react'
-import { TiArrowRightOutline } from "react-icons/ti";
+import { Box, Grid } from '@mui/material'
+import { bgImg } from '../appConstants'
+import GItem from '../components/grids'
+import AppLayout from '../components/layout/appLayout'
+import SiteGap from '../components/siteGap'
 
 
 function Home() {

@@ -1,27 +1,17 @@
-import { Box, Grid, Paper } from '@mui/material'
-import { micheal } from 'appConstants'
-import { rafael } from 'appConstants'
-import { redwalker } from 'appConstants'
-import { hodlImg } from 'appConstants'
-import { todoImg } from 'appConstants'
-import { narrateImg } from 'appConstants'
-import { oluxkwu } from 'appConstants'
-import { chisom } from 'appConstants'
-import { athanasius } from 'appConstants'
-import { appColor } from 'appConstants'
-import MapCard from 'components/cards/mapCard'
-import Dots from 'components/dots'
-import GItem from 'components/grids'
-import AppLayout from 'components/layout/appLayout'
-import SiteBtn from 'components/siteBtn'
-import SiteGap from 'components/siteGap'
-import { Title3 } from 'components/typography'
-import { Grey } from 'components/typography'
-import { Title0 } from 'components/typography'
-import React from 'react'
-import { TiArrowRightOutline } from 'react-icons/ti'
+import { Box, Grid } from '@mui/material'
+import { hodlImg } from '../appConstants'
+import { todoImg } from '../appConstants'
+import { narrateImg } from '../appConstants'
+import MapCard from '../components/cards/mapCard'
+import Dots from '../components/dots'
+import GItem from '../components/grids'
+import AppLayout from '../components/layout/appLayout'
+import SiteGap from '../components/siteGap'
+import { Title0 } from '../components/typography'
+import React from 'react';
 
-function Smeagolmap() {
+
+const Smeagolmap: React.FC = () =>  {
     return (
         <AppLayout>
             <SiteGap>

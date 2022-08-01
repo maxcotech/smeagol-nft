@@ -1,4 +1,4 @@
-import { appColor } from 'appConstants'
+import { appColor } from '../appConstants'
 import React from 'react'
 
 function Dots() {
